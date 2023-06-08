@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  tcp-bridge:
+    build: .
+    ports:
+      - "5760:5760"
+      - "5761:5761"
